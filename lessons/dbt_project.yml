@@ -31,4 +31,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 # files using the `{{ config(...) }}` macro.
 models:
   lessons:
-    +materialized: view # File pathではなく、configという意味
+    +materialized: table # File pathではなく、configという意味
